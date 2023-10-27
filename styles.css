@@ -1,0 +1,139 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell  ;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: content-box;
+}
+
+/* Univarsal */
+
+/* Naviation */
+
+nav, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;    
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    background-color: black;
+
+}
+
+
+nav li {
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+
+/* HEADER */
+
+header {
+    background-image: url(/resources/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.mission h2, .mission h4 {
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+    color: seashell;
+}
+
+/* Featured Teas */
+
+.featured h2, .featured h4 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.featured h4 {
+    margin-bottom: 20px;
+}
+
+/* Images */
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.images-container img {
+    height: 200px;
+    width: 300px;
+
+}
+
+.images-container p {
+    margin-top: 10px;
+}
+
+/* LOCATIONS */
+
+.locations {
+    background-image: url(/resources/img-locations-background.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.container .towns {
+    
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.container .towns ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.container .towns li {
+    margin: 10px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    height: 200px;
+
+}
+
+
+.copyright {
+    text-align: left;
+}
